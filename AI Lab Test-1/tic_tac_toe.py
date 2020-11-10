@@ -1,5 +1,5 @@
-# Tic-Tac-Toe Program using 
-# random number in Python 
+# Tic-Tac-Toe Program (computer vs computer)
+
 
 # importing all necessary libraries 
 import numpy as np 
