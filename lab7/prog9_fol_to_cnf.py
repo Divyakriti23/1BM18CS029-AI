@@ -1,4 +1,4 @@
-# cnf conversion
+# Convert given first order logic statement into Conjunctive Normal Form (CNF).
 
 def getAttributes(string):
     expr = '\([^)]+\)'
