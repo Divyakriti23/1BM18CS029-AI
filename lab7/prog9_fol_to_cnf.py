@@ -99,3 +99,20 @@ def start():
         print("\n")
 
 start()
+
+
+'''
+Output :
+
+Enter the queries 
+animal(y)<=>loves(x,y) next[american(x)&weapon(y)&sells(x,y,z)&hotile(z)]=>criminal(x) next [animal(z)& kills(x,z)]=>~Loves(y,z)
+
+[~animal(y)|loves(x,y) ]&[~loves(x,y) |animal(y)]
+
+
+[~american(x)|~weapon(y)|~sells(x,y,z)|~hotile(z)]|criminal(x) 
+
+
+ [~animal(z)| ~kills(x,z)]|~Loves(y,z)
+
+'''
